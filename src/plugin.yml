@@ -1,0 +1,38 @@
+name: wGuilds
+version: 5.0
+description: Plugin that adds guilds on server.
+author: WildFire
+website: http://WildFire.ct8.pl/
+main: pl.wildfire.guilds.GuildsPlugin
+softdepend: [LogBlock]
+commands:
+  gildie:
+    description: All commands about guilds.
+    aliases: [gildia, g, guild, guilds, f, faction, factions, clan, clans]
+  gildieadmin:
+    description: All commands about guilds.
+    aliases: [gildiaadmin, ga, gadmin, guildadmin, guildsadmin, guilda, guildsa]
+permissions:
+  guilds.*:
+    default: op
+    children:
+      guilds.admin: true
+      guilds.player: true
+  guilds.player:
+    children:
+      guilds.create: true
+  guilds.admin:
+    children:
+      guilds.admin.info-cmd: true
+      guilds.admin.unban: true
+      guilds.admin.tp: true
+      guilds.admin.tempban: true
+      guilds.admin.socialspy: true
+      guilds.admin.reload: true
+      guilds.admin.load: true
+      guilds.admin.lider: true
+      guilds.admin.kick: true
+      guilds.admin.info: true
+      guilds.admin.delete: true
+      guilds.admin.ban: true
+      guilds.admin.add: true

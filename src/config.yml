@@ -1,0 +1,49 @@
+mysql:
+  use: false
+  host: localhost
+  db: db
+  user: user
+  pass: pass
+tag:
+  max: 5
+  min: 2
+  znaki: '[a-zA-Z]*'
+nazwa:
+  max: 20
+  min: 3
+  znaki: '[a-zA-Z]*'
+cena-zaloz:
+- EMERALD:64
+- DIAMOND:64
+- GOLD_INGOT:64
+- TNT:64
+- SLIME_BALL:64
+- ENDER_PEARL:16
+cena-czlonek:
+- DIAMOND:2
+cena-powieksz:
+- DIAMOND:64
+cuboid:
+  wielkosc: 25
+  maxwielkosc: 50
+  oilepowieksz: 5
+gildie:
+  swiat: world
+  odstepodspawn: 500
+cena-przedluz:
+- SLIME_BALL:64
+cena-zmien:
+- DIAMOND:64
+cena-lider:
+- DIAMOND:64
+cena-cuboid:
+- GOLD_INGOT:64
+cena-vip:
+- EMERALD:48
+- DIAMOND:48
+- GOLD_INGOT:48
+- TNT:48
+- SLIME_BALL:48
+- ENDER_PEARL:12
+cena-odnow:
+- EMERALD:64

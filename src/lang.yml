@@ -1,0 +1,316 @@
+user:
+  asojusz:
+    usage: '&cWpisz: /gildia asojusz <skrot>'
+    no-inv: '&cNie macie zaproszenia do sojuszu.'
+    success: '&7Gildia &9$nazwa1 &7zawarla sojusz z gildia &9$nazwa2&7.'
+  chat:
+    success: '&7Tryb chatu zostal zmieniony na &9$tryb&7.'
+  cuboid:
+    success: '&2Przeniosles cuboid gildii do aktualnej pozycji.'
+  dolacz:
+    usage: '&cWpisz: /gildia dolacz <skrot>'
+    no-inv: '&cNie zostales zaproszony do zadnej gildii.'
+    guild-was-deleted: '&cGildia zostala usunieta.'
+    success-guild: '&7Gracz &a$nick dolaczyl do twojej gildii.'
+    success: '&7Dolaczyles do gildii &9$nazwa'
+  dom:
+    in-tp: '&cTwoja teleportacja trwa...'
+    wait-tp: '&7Za &95 &7sekund zostaniesz przeteleportowany.'
+    tp: '&2Zostales przeteleportowany do domu gildii!'
+  ff:
+    success:
+      on: '&7Mozliwosc bicia ciebie przez gldie: &aWlaczona'
+      off: '&7Mozliwosc bicia ciebie przez gldie: &cWylaczona'
+  gracz:
+    usage: '&cWpisz: /gildia gracz <nick>'
+    success:
+    - '&7Gracz: &9$nick'
+    - '&7Gildia: &9$nazwa[$tag]'
+    - '&7Lider: &9$liderstatus'
+  info:
+    success-own:
+    - '&7Gildia: &9$tag [$nazwa]'
+    - '&7Ranking: &e$rank'
+    - '&7Zalozyciel: &9$lider'
+    - '&7Moderatorzy: &9$mod'
+    - '&7Zabojstwa: &9$kill'
+    - '&7Smierci: &9$death'
+    - '&7Gracze: &9[$size_players] $players'
+    - '&7Cuboid: &9$cubx$cub'
+    - '&7Sojusze: &9$soj'
+    - '&7Koordy: &9X: $dom_x, Z: $dom_z'
+    - '&7Zycia: &9$zycia/3'
+    - '&7Nastepny atak mozliwy za: &9$zycieczas.'
+    - '&7Data waznosci uplynie: &9$waznosc'
+    - '&7Aby przywrocic zycie: /gildia odnow'
+    - '&7Aby przedluzyc waznosc: /gildia przedluz'
+    success-other:
+    - '&7Gildia: &9$tag [$nazwa]'
+    - '&7Ranking: &e$rank'
+    - '&7Zalozyciel: &9$lider'
+    - '&7Moderatorzy: &9$mod'
+    - '&7Zabojstwa: &9$kill'
+    - '&7Smierci: &9$death'
+    - '&7Gracze: &9[$size_players] $players'
+    - '&7Cuboid: &9$cubx$cub'
+    - '&7Sojusze: &9$soj'
+  itemy:
+    success:
+    - '&9Na gildie&6(SVIP 3/4)&9:  &6$itemy_zaloz'
+    - '&9Na powiekszenie cuboida:  &6$itemy_powieksz'
+    - '&9Na zmiane nazwy gildii:  &6$itemy_zmien'
+    - '&9Na zmiane lidera:  &6$itemy_lider'
+    - '&9Na przeniesienie cuboida:  &6$itemy_cuboid'
+    - '&9Na przedluzenie waznosci:  &6$itemy_przedluz'
+    - '&9Na nowego czlonka:  &6$itemy_czlonek'
+    - '&9Na odnowienie zycia:  &6$itemy_odnow'
+  lista:
+    success:
+    - '&6Gildie: &a$gildie'
+    - '&6Liczba gildii: &a$size_gildie'
+  mod:
+    usage: '&cWpisz: /gildia mod <nick>'
+    success-remove: '&cZabrales moderatora gildii $nick'
+    success-add:
+    - '&aDales moderatora gildii $nick'
+    - '&cWpisz jeszcze raz aby zabrac.'
+  oddaj:
+    usage: '&cWpisz: /gildia oddaj [nick]'
+    success: '&7Nowym liderem gildii &9$nazwa jest &a$nick&7.'
+  odejdz:
+    yes-lider: '&cNie mozesz byc liderem gildii, aby to zrobic.'
+    success-guild: '&7Gracz &a$nick opuscil twoja gildie.'
+    success: '&eOpusciles gildie $nazwa'
+  odnow:
+    time: '&cKolejne zycie mozesz odnowic: $time'
+    max-heart: '&cTwoja gildia posiada juz maksymalna ilosc zyc.'
+    success: '&7Odnowiles gildie o 1 zycie.'
+  oplac:
+    success: '&7Przedluzyles waznosc gildii o 1 tydzien.'
+  osojusz:
+    usage: '&cWpisz: /gildia osojusz <skrot>'
+    success: '&cOdrzuciles prosbe sojuszu od gildii $nazwa'
+  pomoc:
+    success:
+    - ' &8|| &6Itemy &8||'
+    - '&7Wszystkie wymagane itemy znajduja sie pod &c/g itemy'
+    - ' &8|| &6Waznosc &8||'
+    - '&7Po zalozeniu gildii jest ona wazna &92 &7tygodnie.'
+    - '&7Komenda &c/g przedluz &7przedluza waznosc gildii o &92 &7tygodnie za &964 slimeballe&7.'
+    - ' &8|| &6Cuboid &8||'
+    - '&7Po zalozeniu gildii dostajesz ona cuboid &950x50&7.'
+    - '&7Komenda &c/g powieksz &7powieksza cuboid o &910x10 &7za &964 diamenty&7.'
+    - '&7Po wejsciu na teren gildii, gracze z gildii otrzymuja ostrzezenie o twoim wkorczeniu.'
+    - '&cMaksymalny rozmiar cuboidu to 100x100.'
+    - ' &8|| &6Zycia gildii &8||'
+    - '&7Po zalozeniu gildii dostaje ona &93 &7zycia.'
+    - '&7Uderzenie w serce gildii odejmuje jej &91 &7zycie,'
+    - '&7Serce gildii jest na poziomie &950 &7pod &c/gildia dom&7,'
+    - '&7Atak jest mozliwy co &912h&7,odnowa zycia co &98h,'
+    - '&7Komenda &c/g odnow &7odnawia &91 &7zycie gildii za &964 szmaragdy&7.'
+    - '&cPo osiagnieciu przez gildie 0 zyc zostaje ona usunieta.'
+  pomoc1:
+    success:
+    - ' &8|| &6Komendy gildii &8||'
+    - ' &8» &c/gildia zaloz &6| &7Zakladasz gildie'
+    - ' &8» &c/gildia itemy &6| &7Wymagane itemy'
+    - ' &8» &c/gildia top &6| &7Top gildii'
+    - ' &8» &c/gildia lista &6| &7Lista gildii'
+    - ' &8» &c/gildia info &6| &7Info o gildii'
+    - ' &8» &c/gildia gracz &6| &7Info o graczu'
+    - ' &8» &c/gildia dolacz &6| &7Dolaczasz do gildii'
+    - ' &8» &c/gildia odejdz &6| &7Odchodzisz z gildii'
+    - ' &8» &c/gildia dom &6| &7Teleportujesz sie do gildii'
+    - ' &8» &c/gildia ff &6| &7Mozliwosc bicie ciebie przez gildie'
+    - ' &8» &c/gildia chat &6| &7Chat gildii/sojuszu'
+    - ' &8» &4/gildia lider &6| &7Komendy lidera'
+    - ' &8» &4/gildia pomoc &6| &7Informacje o gildiach'
+  pomoc2:
+    success:
+    - ' &8|| &6Komendy Lidera &8||'
+    - ' &8» &c/gildia usun &6| &7Usuwasz gildie'
+    - ' &8» &c/gildia mod &6| &7Dajesz moderatora gildii'
+    - ' &8» &c/gildia zapros &6| &7Zapraszasz do gildii'
+    - ' &8» &c/gildia wyrzuc &6| &7Wyrzucasz z gildii'
+    - ' &8» &c/gildia sojusz &6| &7Wysylasz prosbe o sojusz'
+    - ' &8» &c/gildia asojusz &6| &7Akceptujesz prosbe sojusz'
+    - ' &8» &c/gildia osojusz &6| &7Odrzucasz prosbe sojusz'
+    - ' &8» &c/gildia zsojusz &6| &7Zrywasz sojusz'
+    - ' &8» &c/gildia przedluz &6| &7Przedluzasz gildie'
+    - ' &8» &c/gildia powieksz &6| &7Powiekszasz cuboid gildii'
+    - ' &8» &c/gildia przenies &6| &7Przenosisz cuboid gildii'
+    - ' &8» &c/gildia zmien &6| &7Zmieniasz nazwe gildii'
+    - ' &8» &c/gildia oddaj &6| &7Oddajesz zalozycielstwo gildii'
+    - ' &8» &c/gildia odnow &6| &7Odnawiasz zycie gildii'
+  powieksz:
+    max: '&cTwoja gildia jest powiekszona maksymalnie.'
+    success: '&7Gildia &9$nazwa &7powiekszyla cuboid do &a$cubx$cub&7.'
+  sojusz:
+    max-me: '&cTwoja gildia osiagnela juz max. ilosc sojuszy(6).'
+    max-other: '&cGildia osiagnela juz max. ilosc sojuszy(6).'
+    no-you-guild: '&cNie mozesz nawiazac sojuszu z wlasna gildia.'
+    has-ally: '&cMacie juz sojusz z ta gildia'
+    has-send: '&cWyslales juz prosbe tej gildii.'
+    usage: '&cWpisz: /gildia sojusz <tag>'
+    to-lider:
+    - '&eGildia $tag wyslala wam prosbe o sojusz.'
+    - '&aWpisz /gildia asojusz aby zaakceptowac.'
+    - '&aWpisz /gildia osojusz aby odrzucic.'
+    success:
+    - '&eWyslales prosbe o sojusz gildii $tag'
+    - '&cWpisz: /gildia wsojusz aby wycofac.'
+  usun:
+    success: '&7Gracz &c$nick &7usunol gildie &4$nazwa&7.'
+  wsojusz:
+    no-inv: '&cNie wyslales zadnej prosby o sojusz do tej gildii.'
+    usage: '&cWpisz: /gildia wsojusz <tag>'
+    success: '&6Wycofales prosbe o sojusz od $tag'
+  wyrzuc:
+    usage: '&cWpisz: /gildia wyrzuc <nick>'
+    no-lider-mod: '&cNie mozesz wyrzucic lidera/moderatora.'
+    success: '&7Wyrzuciles gracza $nick z gildii.'
+  zaloz:
+    tag-exist: '&cGildia z takim skrotem juz istnieje.'
+    name-exist: '&cGildia z taka nazwa juz istnieje.'
+    tag-chars: '&cTag zawiera niedozwolone znaki.'
+    name-chars: '&cNazwa zawiera niedozwolone znaki.'
+    tag-size: '&cDlugosc tagu: $min - $max'
+    name-size: '&cDlugosc nazwy: $min - $max'
+    usage: '&cWpisz: /gildia zaloz <skrot> <nazwa>'
+    success: '&7Gracz &9$nick &7zalozyl gildie &a$nazwa &8[&a$tag&8]'
+  zapros:
+    usage: '&cWpisz: /gildia zapros <nick>'
+    to-player: '&6Zostales zaproszony do gildii $tag.'
+    success: '&7Zaprosiles gracza $nick do gildii.'
+  zmien:
+    usage: '&cWpisz: /gildia zmien <skrot> <nazwa>'
+    success: '&7Gildia &9$old_nazwa &7zmienila nazwe na $new_nazwa [$new_tag]'
+  zsojusz:
+    usage: '&cWpisz: /gildia zsojusz <tag>'
+    no-ally: '&cNie masz sojuszu z ta gildia.'
+    success: '&7Gildia &c$nazwa1 &7zerwala sojusz z gildia &c$nazwa2&7.'
+admin:
+  usage: '&cWpisz: /gildia admin <waznosc/usun/tp/ustawlider/wyrzucg/dodajg/info>'
+  socialspy:
+    success-on: '&6SocialSpy &aON'
+    success-off: '&6SocialSpy &cOFF'
+  dodaj:
+    usage: '&cWpisz: /gildia admin dodaj <skrot> <gracz>'
+    success: '&7Dodales &a$nick &7do gildii &9$tag.'
+  load:
+    unsuccess: '&7Ladowanie przebieglo blednie &c$tag&7.'
+    success: '&7Pomyslnie zaladowales &a$tag&7.'
+  info:
+    usage: '&cWpisz: /gildia admin info <skrot>'
+    success:
+    - '&7Gildia: &9$tag [$nazwa]'
+    - '&7Ranking: &e$rank'
+    - '&7Lider: &9$lider'
+    - '&7Moderatorzy: &9$mod'
+    - '&7Zabojstwa: &9$kill'
+    - '&7Smierci: &9$death'
+    - '&7Gracze: &9$players'
+    - '&7Cuboid: &9$cubx$cub'
+    - '&7Sojusze: &9$soj'
+    - '&7Zycia: &9$zycia'
+    - '&7Nastepny atak mozliwy: &9$zycieczas'
+    - '&7Koordy: &9X: $cord_x, Z: $cord_z'
+    - '&7Data waznosci uplynie: &9$waznosc'
+  tp:
+    usage: '&cWpisz: /gildia admin tp <tag>'
+    success: '&ePrzeteleportowales sie do gildii $tag.'
+  ustawlider:
+    is-lider: '&cGracz jest juz liderem.'
+    usage: '&cWpisz: /gildia admin ustawlider <nick>'
+    success: '&eDales lidera gildii $tag graczowi $nick.'
+  usun:
+    usage: '&cWpisz: /gildia admin usun <skrot>'
+    success: '&cUsunoles gildie $tag'
+  wyrzuc:
+    player-lider: '&cGracz jest liderem, nie mozesz tego zrobic!'
+    usage: '&cWpisz: /gildia admin wyrzuc <nick>'
+    success: '&eWyrzuciles $nick z gildii $tag.'
+  ban:
+    is-banned: '&cTa gildia jest juz zbanowana.'
+    usage: '&cWpisz: /gildia admin ban <skrot> <powod>'
+    success:
+    - '&4####'
+    - '&4Gildia $nazwa zostala permanentnie zbanowana.'
+    - '&4Powod: $powod'
+    - '&4####'
+  tempban:
+    is-banned: '&cTa gildia jest juz zbanowana.'
+    usage: '&cWpisz: /gildie admin tempban <tag> <czas> <powod>'
+    success:
+    - '&4####'
+    - '&4Gildia $nazwa zostala zbanowana do $czas.'
+    - '&4Powod: $powod'
+    - '&4####'
+  unban:
+    no-banned: '&cTa gildia nie jest zbanowana.'
+    usage: '&cWpisz: /gildie admin unban <tag>'
+    success:
+    - '&4####'
+    - '&4Gildia $nazwa zostala odbanowana.'
+    - '&4####'
+other:
+  player-off: '&cGracz nie jest aktywny.'
+  no-in-you-guild: '&cGracz nie jest w twojej gildii.'
+  no-me: '&cNie mozesz tego uzyc na samym sobie.'
+  cuboid-lock: '&cTeren pod toba jest zabezpieczony.'
+  from-spawn: '&cGildie mozna tworzyc $spawn kratek od spawnu.'
+  bad-world: '&cMusisz znajdowac sie w swiecie gildii.'
+  no-items:
+  - '&cNie posiadasz wymaganych itemow aby to zrobic.'
+  - '&7Potrzebujesz: $itemy'
+  no-lider: '&cMusisz byc liderem gildii, aby to zrobic!'
+  no-lider-mod: '&cMusisz byc liderem lub modem gildii, aby to zrobic!'
+  you-has-guild: '&cPosiadasz juz gildie.'
+  you-has-no-guild: '&cNie posiadasz gildii.'
+  guild-no-exist: "&cGildia z takim skrotem nie istnieje."
+  has-guild: '&cGracz posiada juz gildie.'
+  has-no-guild: '&cGracz nie posiada gildii.'
+  no-cmd: '&7Nie znaleziono komendy. Wpisz: &b/gildia'
+  no-console: '&cWykonanie tej tego z poziomu konsoli jest nie mozliwe.'
+  no-perms: '&4Nie masz uprawnien!'
+commands:
+  asojusz: 'asojusz'
+  chat: 'chat'
+  przenies: 'przenies'
+  dolacz: 'dolacz'
+  dom: 'dom'
+  ff: 'ff'
+  gracz: 'gracz'
+  info: 'info'
+  itemy: 'itemy'
+  lista: 'lista'
+  mod: 'mod'
+  oddaj: 'oddaj'
+  opusc: 'opusc,odejdz'
+  odnow: 'odnow'
+  przedluz: 'przedluz'
+  osojusz: 'osojusz'
+  lider: 'lider'
+  powieksz: 'powieksz'
+  top: 'top'
+  usun: 'usun'
+  wsojusz: 'wsojusz'
+  wyrzuc: 'wyrzuc'
+  zaloz: 'zaloz'
+  zapros: 'zapros'
+  zmien: 'zmien'
+  zsojusz: 'zsojusz'
+  admin: 'admin,a'
+cmd-admin:
+  usun: 'usun'
+  tp: 'tp'
+  ustawlider: 'ustawlider'
+  wyrzucg: 'wyrzucg'
+  dodajg: 'dodajg'
+  info: 'info'
+  socialspy: 'socialspy'
+  load: 'load,zaladuj'
+  tempban: 'tempban'
+  ban: 'ban'
+  unban: 'unban'
+  przeladuj: 'przeladuj'
